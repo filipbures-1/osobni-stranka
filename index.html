@@ -5,15 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- TODO (tmavý režim): po přidání tmavého schématu změňte content na "light dark" -->
   <meta name="color-scheme" content="light">
-  <title>TODO: Jméno Příjmení – osobní stránka</title>
-  <link rel="stylesheet" href="css/style.css">
+  <title>Filip Bureš - osobní stránka</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <a class="skip-link" href="#obsah">Přejít na obsah</a>
 
   <header class="site-header">
-    <h1>TODO: Jméno Příjmení</h1>
-    <p>TODO: jedna věta o vás.</p>
+    <h1>Filip Bureš</h1>
+    <p>Student IT na SPŠE Ječná</p>
     <nav aria-label="Hlavní navigace">
       <ul>
         <li><a href="#o-mne">O mně</a></li>
@@ -28,25 +28,55 @@
 
     <section id="o-mne" class="card" aria-labelledby="o-mne-nadpis">
       <h2 id="o-mne-nadpis">O mně</h2>
-      <!-- TODO: vložte fotku nebo obrázek do složky img/, odkomentujte řádek níže
-           a vyplňte výstižný alt (u čistě dekorativního obrázku alt prázdný):
-      -->
-      <p>TODO: pár vět o vás.</p>
+        <figure>
+          <img src="img/FilipBures.jpg" alt="Fotografie Filipa Bureše" width="300" height="auto">
+          <figcaption>Fotografie Filipa Bureše</figcaption>
+        </figure>
+
+      <p>
+        Ahoj, jmenuji se <strong>Filip Bureš</strong> a studuji informační technologie. 
+        Ve volném čase se zajímám o tvorbu webových stránek, moderní technologie a sport.
+      </p>
+      <p>
+        Tento web vznikl jako školní projekt zaměřený na přístupnost (WCAG) a responzivní design, 
+        aby si ho mohl pohodlně prohlédnout opravdu každý bez ohledu na zařízení nebo nastavení systému.
+      </p>
     </section>
 
     <section id="projekty" aria-labelledby="projekty-nadpis">
       <h2 id="projekty-nadpis">Projekty</h2>
-      <!-- TODO: alespoň tři položky, každá s obrázkem. Zkopírujte celý prvek article a upravte ho. -->
       <article class="card">
-        <h3>TODO: název projektu</h3>
-        <p>TODO: stručný popis projektu.</p>
+        <h3>Deadline</h3>
+        <figure>
+          <img src="img/deadline.webp" alt="Obrázek hry Deadline" width="300" height="auto">
+          <figcaption>Obrázek hry Deadline</figcaption>
+        </figure>
+        <p>Textová adventura, kde hráč hraje za žáka, který musí dodělat úkoly před koncem školního roku.</p>
+        <p>Hráč také musí využívat předměty a interagovat s postavami, aby hrou prošel.</p>
+        <p>Projekt využívá Command Pattern.</p>
+      </article>
+      <article class="card">
+        <h3>FinanceManager</h3>
+        <figure>
+          <img src="img/financemanager.webp" alt="Obrázek aplikace FinanceManager" width="300" height="auto">
+          <figcaption>Obrázek aplikace FinanceManager</figcaption>
+        </figure>
+        <p>Aplikace pro správu osobních financí.</p>
+      </article>
+      <article class="card">
+        <h3>Horská chata - responzivní web</h3>
+        <figure>
+          <img src="img/vyhlidkachata.webp" alt="Úvodní stránka horské chaty" width="300" height="auto">
+          <figcaption>Úvodní stránka horské chaty</figcaption>
+        </figure>
+        <p>Responzivní web pro horskou chatu.</p>
       </article>
     </section>
 
     <section id="dovednosti" aria-labelledby="dovednosti-nadpis">
       <h2 id="dovednosti-nadpis">Dovednosti</h2>
       <table>
-        <caption>TODO: popisek tabulky</caption>
+        <caption>Seznam dovedností</caption>
         <thead>
           <tr>
             <th scope="col">Dovednost</th>
@@ -55,8 +85,24 @@
         </thead>
         <tbody>
           <tr>
-            <th scope="row">TODO: dovednost</th>
-            <td>TODO: úroveň</td>
+            <th scope="row">Programování v JAVA</th>
+            <td>Středně pokročilý</td>
+          </tr>
+          <tr>
+            <th scope="row">Programovaní v C#</th>
+            <td>Mírně pokročilý</td>
+          </tr>
+          <tr>
+            <th scope="row">Tvorba webových stránek</th>
+            <td>Středně pokročilý</td>
+          </tr>
+          <tr>
+            <th scope="row">Tvorba databází</th>
+            <td>Středně pokročilý</td>
+          </tr>
+          <tr>
+            <th scope="row">Tvorba her v Unity</th>
+            <td>Mírně pokročilý</td>
           </tr>
         </tbody>
       </table>
@@ -66,14 +112,14 @@
       <h2 id="kontakt-nadpis">Kontakt</h2>
       <address>
         <!-- TODO: e-mail jako odkaz (mailto:), případně město nebo odkaz na profil -->
-        <p>E-mail: <a href="mailto:TODO">TODO</a></p>
+        <p>E-mail: <a href="mailto:filip.bures08@gmail.com">filip.bures08@gmail.com</a></p>
       </address>
     </section>
 
   </main>
 
   <footer>
-    <p>© TODO: rok a jméno</p>
+    <p>© Filip Bureš 2026</p>
   </footer>
 </body>
 </html>
